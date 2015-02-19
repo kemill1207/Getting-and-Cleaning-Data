@@ -27,7 +27,7 @@ Each factor name describes the activity performed by each subject for which data
      WALKING DOWNSTAIRS
 
 ####Measurements
-The following column names are the different measurements which were recorded for each activity by each subject.  Please refer to features_info.txt in the UCI HAR Dataset for more information.  The data in the outcome table is the mean of each of the following for each subject performing each activity.  These are numeric values.
+The following column names are the different measurements which were recorded for each activity by each subject.  Please refer to "features_info.txt" in the UCI HAR Dataset for more information.  The data in the outcome table is the mean of each of the following for each subject performing each activity.  These are numeric values.
 
      tBodyAcc-mean()-X          
      tBodyAcc-mean()-Y
