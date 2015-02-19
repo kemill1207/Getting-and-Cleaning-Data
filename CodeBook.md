@@ -14,7 +14,7 @@ Factor. 30 levels
 Numbers 1 through 30.  Each number represents an individual subject.
      
 ####Activity
-Factor. 6 levels.  
+Factor. 6 levels
 Each factor name describes the activity performed by each subject for which data was recorded.
 
      LYING
