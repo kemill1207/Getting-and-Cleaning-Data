@@ -1,25 +1,20 @@
----
-title: "CodeBook"
-author: "kemill1207"
-date: "Wednesday, February 18, 2015"
-output: html_document
----
-The data contained in the UCI HAR Dataset collects the readings of over 10,000 tests from the 
-30 subjects, who each performed the 6 activities.  
+#Getting and Cleaning Data
+##CodeBook
 
-run_analysis.r combines all of the data into a single table, then finds the mean for each
-measurement for each activity performed by each subject.  The final output is a tidy,
-180 x 68, summary data table  which reports these averages.  
+###Data Collection and Analysis
 
-Summary of Variables for the output of run_analysis.R:
+The data contained in the UCI HAR Dataset collects the readings of over 10,000 tests from the 30 subjects, who each performed the 6 activities.  
+
+run_analysis.r combines all of the data into a single table, then finds the mean for each measurement for each activity performed by each subject.  The final output is a tidy, 180 x 68, summary data table  which reports these averages.  
+
+###Summary of Variables for the output of run_analysis.R:
 
 Subject:
      Factor. 30 levels, 
      Numbers 1 through 30.  Each number represents an individual subject.
      
 Activity:
-     Factor. 6 levels.  Each factor name describes the activity performed by each subject 
-     for which data was recorded.
+     Factor. 6 levels.  Each factor name describes the activity performed by each subject      for which data was recorded.
      "LYING"
      "SITTING"
      "STANDING"
@@ -27,9 +22,7 @@ Activity:
      "WALKING_DOWNSTAIRS"
      "WALKING_UPSTAIRS"
 
-The following column names are the different measurements which were recorded for 
-each activity by each subject.  Please refer to features_info.txt in the UCI HAR Dataset 
-for more information.  The data in the outcome table is the mean of each of the following for each subject performing each activity.  These are numeric values.
+The following column names are the different measurements which were recorded for each activity by each subject.  Please refer to features_info.txt in the UCI HAR Dataset for more information.  The data in the outcome table is the mean of each of the following for each subject performing each activity.  These are numeric values.
 
      tBodyAcc-mean()-X          
      tBodyAcc-mean()-Y
