@@ -10,17 +10,18 @@ run_analysis.r combines all of the data into a single table, then finds the mean
 ###Summary of Variables for the output of run_analysis.R:
 
 Subject:
-     >Factor. 30 levels, 
-     Numbers 1 through 30.  Each number represents an individual subject.
+     -Factor. 30 levels 
+     -Numbers 1 through 30.  Each number represents an individual subject.
      
 Activity:
-     >Factor. 6 levels.  Each factor name describes the activity performed by each subject      for which data was recorded.
-     "LYING"
-     "SITTING"
-     "STANDING"
-     "WALKING"
-     "WALKING_DOWNSTAIRS"
-     "WALKING_UPSTAIRS"
+     -Factor. 6 levels.  
+     -Each factor name describes the activity performed by each subject      for which data was recorded.
+     -"LYING"
+     -"SITTING"
+     -"STANDING"
+     -"WALKING"
+     -"WALKING_DOWNSTAIRS"
+     -"WALKING_UPSTAIRS"
 
 The following column names are the different measurements which were recorded for each activity by each subject.  Please refer to features_info.txt in the UCI HAR Dataset for more information.  The data in the outcome table is the mean of each of the following for each subject performing each activity.  These are numeric values.
 
